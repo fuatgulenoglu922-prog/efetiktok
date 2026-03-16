@@ -1,0 +1,36 @@
+name: efetiktok
+description: "Güçlü alt yapılı, offline, şifre korumalı not alma uygulaması."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  flutter_secure_storage: ^9.0.0
+  local_auth: ^2.1.6
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.1.14
+  package_info_plus: ^5.0.1
+  path: ^1.8.3
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
